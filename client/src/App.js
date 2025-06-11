@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import VoterComponent from './component/voter_component.js';
+import VoterComponent from './components/voter_component.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AdminComponent from './component/admin_component.js';
+import AdminComponent from './components/admin_component.js';
 // import {connectWeb3Metamask} from './contract/web3_functions.js';
 import getWeb3 from './utils/web3.js';
 import detectEthereumProvider from '@metamask/detect-provider';
+import AnonymousVoting from './components/AnonymousVoting';
 
 function App() {
 
@@ -64,3 +65,4 @@ function App() {
 }
 
 export default App;
+
