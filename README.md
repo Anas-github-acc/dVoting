@@ -29,3 +29,16 @@ Ensure you have the following tools installed on your system:
 
 This version includes instructions to guide users to follow the separate `README.md` files in the `contract` and `client` directories for detailed setup and running processes.
 note: you have to first run contract then client
+
+
+## Open to Contribute
+We welcome contributions! Please follow these steps:
+
+**Fork the repository**
+- Create a new branch `git checkout -b feature-branch`
+- Commit your changes `git commit -m 'Add some feature'`
+- Push to the branch `git push origin feature-branch`
+- Open a **pull request**
+
+## Contact Information
+For any inquiries, please reach out to `anas.ahamad955@gmail.com`.
